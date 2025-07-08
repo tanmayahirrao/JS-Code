@@ -40,3 +40,36 @@ console.log(typeof heros)
 //  function -> 'function' (object function)
 //  Array -> object (function object)
 //  Symbol -> 'symbol'
+
+
+
+
+//++++++++++++++++++++++++  Memories  +++++++++++++++++++++++++++++++++++++++++
+
+// 1. Stack Memory
+// 2. Heap Memory
+
+// Stack (Primitive) - when you declare a variable here, you get a copy of that variable
+// Heap (Non Primitive) - when you declare a object or anything you get reference of original value
+
+
+//Example of Stack Memory
+let myName = "Tanmay"
+let schoolName = myName
+schoolName = "Tanu"
+
+console.log(myName)
+console.log(schoolName)
+
+//Example of Heap Memory
+let userOne = {
+    email: "tanny@gmail.com",
+    rollNo: 25,
+}
+
+let userTwo = userOne
+
+userTwo.email = "tanny28@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)

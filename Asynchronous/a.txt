@@ -1,1 +1,4 @@
 a.txt
+List of asychronous function in JavaScript
+1. readFile("file", "encoding", callback function) //readFile calls the function when done reading the file
+2. setTimeout(callback fucntion, time in ms) //calls the function after every timeout

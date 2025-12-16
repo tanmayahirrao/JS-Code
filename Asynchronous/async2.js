@@ -17,7 +17,7 @@ for (let i = 0; i<10000000000; i++) { //CPU intensive task
 console.log("Expensive operation done")
 
 /*
-Option 1 - correct
+Option 1 - correct - why - because the tread was not free to run timeout function
     - Hi
     - Welcome to Async
     - Expensive operation done
